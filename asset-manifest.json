@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/teigrgwyn-crypto/show-wallet-funds/static/css/main.073c9b0a.css",
+    "main.js": "/teigrgwyn-crypto/show-wallet-funds/static/js/main.df1024c0.js",
+    "static/js/787.d25cedd4.chunk.js": "/teigrgwyn-crypto/show-wallet-funds/static/js/787.d25cedd4.chunk.js",
+    "static/media/logo.svg": "/teigrgwyn-crypto/show-wallet-funds/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/teigrgwyn-crypto/show-wallet-funds/index.html",
+    "main.073c9b0a.css.map": "/teigrgwyn-crypto/show-wallet-funds/static/css/main.073c9b0a.css.map",
+    "main.df1024c0.js.map": "/teigrgwyn-crypto/show-wallet-funds/static/js/main.df1024c0.js.map",
+    "787.d25cedd4.chunk.js.map": "/teigrgwyn-crypto/show-wallet-funds/static/js/787.d25cedd4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.df1024c0.js"
+  ]
+}
