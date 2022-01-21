@@ -6,7 +6,6 @@ import { LCDClient } from '@terra-money/terra.js';
 
 import './App.scss';
 
-// terra183lxcc3gca9gmpt538muelexh7whm982y7y7pq
 const defaultQuery = { address: 'terra183lxcc3gca9gmpt538muelexh7whm982y7y7pq' };
 const defaultError = '';
 
@@ -19,11 +18,6 @@ function App() {
     URL: 'https://bombay-lcd.terra.dev',
     chainID: 'bombay-12',
   });
-
-  // const terra = new LCDClient({
-  //   URL: 'http://localhost:1317',
-  //   chainID: 'localterra'
-  // });
 
   const onQueryChange = (e) => {
     setQuery({ ...query, [e.target.name]: e.target.value });
@@ -49,7 +43,6 @@ function App() {
         coin = coin[1];
         // to get non-micro version -> multiply string amount by -> 10 ** (-6)
         // need to set state all at once to prevent an override loop (unconventional i know)
-        // this also somehow prevents react from detecting coins state as changing, but since the query changes, it'll still work as expected
         let denom = [coin.denom];
         let count = coin.amount.toString();
         temp_coins[denom] = count;
