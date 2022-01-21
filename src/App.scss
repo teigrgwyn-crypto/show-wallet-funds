@@ -6,7 +6,7 @@ form {
   padding-bottom: 3vh;
   border-bottom: 2px solid #20232A;
 
-  // allows search menu to be sticky
+  // allows search to be sticky
   position: sticky;
   top: 0;
   z-index: 1;
@@ -17,11 +17,11 @@ input {
   padding: 5px;
   background-color: #20232A;
 
-  width: 273px;
-  height: 30px;
+  width: 400px;
+  height: 37px;
 
   box-shadow: 0 0 3px #20232A, 0 0 10px black inset;
-  border-radius: 10px;
+  border-radius: 13px;
   border: 2px solid #20232A;
 
   font-size: 0.9rem;
@@ -46,4 +46,35 @@ input {
       color: #20232A;
     }
   }
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  .coin {
+    text-align: center;
+
+    border: 1px dashed crimson;
+    border-radius: 25px;
+
+    margin: 5%;
+    padding: 15%;
+
+    .denom {
+      color: gold;
+    }
+
+    .count {
+      color: orange;
+    }
+  }
+}
+
+#error {
+  text-align: center;
+  color: crimson;
+
+  margin-top: 2%;
 }
