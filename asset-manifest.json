@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/show-wallet-funds/static/css/main.f120a262.css",
-    "main.js": "/show-wallet-funds/static/js/main.d194a613.js",
+    "main.js": "/show-wallet-funds/static/js/main.c4239e08.js",
+    "static/js/370.ce6f327e.chunk.js": "/show-wallet-funds/static/js/370.ce6f327e.chunk.js",
+    "static/css/78.e2c75a91.chunk.css": "/show-wallet-funds/static/css/78.e2c75a91.chunk.css",
+    "static/js/78.b9ea888f.chunk.js": "/show-wallet-funds/static/js/78.b9ea888f.chunk.js",
+    "static/js/778.3b0dc5bc.chunk.js": "/show-wallet-funds/static/js/778.3b0dc5bc.chunk.js",
+    "static/js/62.bbdca629.chunk.js": "/show-wallet-funds/static/js/62.bbdca629.chunk.js",
     "index.html": "/show-wallet-funds/index.html",
-    "main.f120a262.css.map": "/show-wallet-funds/static/css/main.f120a262.css.map",
-    "main.d194a613.js.map": "/show-wallet-funds/static/js/main.d194a613.js.map"
+    "main.c4239e08.js.map": "/show-wallet-funds/static/js/main.c4239e08.js.map",
+    "370.ce6f327e.chunk.js.map": "/show-wallet-funds/static/js/370.ce6f327e.chunk.js.map",
+    "78.e2c75a91.chunk.css.map": "/show-wallet-funds/static/css/78.e2c75a91.chunk.css.map",
+    "78.b9ea888f.chunk.js.map": "/show-wallet-funds/static/js/78.b9ea888f.chunk.js.map",
+    "778.3b0dc5bc.chunk.js.map": "/show-wallet-funds/static/js/778.3b0dc5bc.chunk.js.map",
+    "62.bbdca629.chunk.js.map": "/show-wallet-funds/static/js/62.bbdca629.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f120a262.css",
-    "static/js/main.d194a613.js"
+    "static/js/main.c4239e08.js"
   ]
 }
